@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kunle *.css
+recursive-include kunle *.csv
+recursive-include kunle *.html
+recursive-include kunle *.ico
+recursive-include kunle *.js
+recursive-include kunle *.json
+recursive-include kunle *.md
+recursive-include kunle *.png
+recursive-include kunle *.py
+recursive-include kunle *.svg
+recursive-include kunle *.txt
+recursive-exclude kunle *.pyc
